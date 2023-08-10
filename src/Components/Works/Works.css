@@ -1,0 +1,76 @@
+.works{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+}
+.w-right{
+    position: relative;
+}
+.main-circle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+}
+.main-circle>*{
+    position: absolute;
+    
+}
+.main-circle>:nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+.main-circle>:nth-child(2){
+    top: 5rem;
+    left: -3rem;
+}
+.main-circle>:nth-child(3){
+    top: 5rem;
+    left: 6rem;
+}
+.main-circle>:nth-child(4){
+    top: 5rem;
+    left: 15rem;
+}
+.main-circle>:nth-child(5){
+    top: 13rem;
+    left: 6rem;
+}
+.sec-circle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 4px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+.sec-circle>img{
+    transform: scale(0.7 );
+}
+.bg-circle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.lbluecircle{
+    background: var(--dblue);
+    left: 18rem;
+    top: 0rem;
+}
+.dbluecircle{
+    background: var(--lblue);
+    left: 18rem;
+    top: 8rem;
+}
