@@ -9,6 +9,7 @@ import tower from '../../img/tower.png'
 import Thumbup from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import { Link } from 'react-scroll';
 
 const Intro = () => {
   return (
@@ -19,7 +20,9 @@ const Intro = () => {
                 <span>Building Dreams, Building Realities.</span>
                 <span>Alpine Domicile is here to serve you in all your construction and building projects, We turn your dreams into reality!</span>
             </div>
+            <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
             <button className="button i-button cbutton">Hire Us</button>
+            </Link>
             <div className="i-icons">
                 <a href="https://instagram.com/alpine_domicile?igshid=MzRlODBiNWFlZA==" target='_blank'><img src={Instagram} alt="IG" /></a>
                 <a href="https://wa.me/919946747507" target='_blank'><img src={Whatsapp} alt="WB" /></a>
@@ -40,7 +43,7 @@ const Intro = () => {
                 <FloatingDiv image={Thumbup} txt1={'Modern'} txt2={'Designs'}/>
             </div>
             <div className="blur" style={{background: 'var(--dblue)'}}></div>
-            <div className="blur" style={{background: 'var(--lblue)', top: '17rem', width: '21rem', height: '11rem', left:'-9rem'}}></div>
+            <div className="blur" id='blurintro' style={{background: 'var(--lblue)', top: '17rem', width: '21rem', height: '11rem', left:'-9rem'}}></div>
         </div>
     </div>
   )

@@ -87,3 +87,16 @@
     left: 56%;
     filter: blur(160px);
 }
+@media  screen and (max-width: 480px) {
+    .intro{
+        flex-direction: column;
+    }
+    .i-right{
+        display: none;
+    }
+    .i-icons{
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

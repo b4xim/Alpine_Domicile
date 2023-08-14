@@ -82,3 +82,18 @@
     left: 45rem;
     top: -15rem;
 }
+@media  screen and (max-width: 480px) {
+    .experience{
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 0;
+        margin-top: 3rem;
+    }
+    .maindiv{
+        height: 125vh;
+
+    }
+    .expname{
+        margin-bottom: 0;
+    }
+}

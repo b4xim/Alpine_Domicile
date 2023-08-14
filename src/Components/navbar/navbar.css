@@ -24,16 +24,36 @@
     display: flex;
     gap: 3rem;
     margin-right: 1rem;
+
 }
-.n-list>ul>li{
+.hyper{
     font-family: 'Philosopher';
     font-weight: 400;
 }
-.n-list>ul>li:hover{
-    cursor: pointer;
-    color: var(--lblue);
-    
-}
-.n-button{
+
+#butt{
     flex: 2;
+    padding: 10px 26px 10px 26px;
+    width: 130px;
+}
+.hyper:hover{
+    color: var(--lblue);
+    cursor: pointer;
+}
+@media  screen and (max-width: 480px) {
+    .n-list{
+        display: none;
+    }
+    .n-logo{
+        width: auto;
+        height: 38px;
+    }
+    .n-wrapper{
+        box-shadow: var(--boxShadow);
+    }
+}
+@media  screen and (max-width: 768px){
+    .n-list{
+        display: none;
+    }
 }

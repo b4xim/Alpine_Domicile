@@ -49,6 +49,11 @@
   cursor: pointer;
   border: 1px solid #18aba3;  
 }
+@media  screen and (max-width: 480px) {
+  .App{
+    padding: 0.5rem 1rem;
+  }
+}
 
   
 

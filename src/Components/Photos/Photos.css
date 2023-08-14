@@ -41,3 +41,10 @@
     top: 2rem;
     left: 50rem;
 }
+@media  screen and (max-width: 480px) {
+    .photos>span{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

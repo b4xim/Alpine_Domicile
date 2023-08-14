@@ -32,3 +32,16 @@ textarea{
     top: 1rem;
     left: 8rem;
 }
+@media  screen and (max-width: 480px) {
+    .contact-form{
+        flex-direction: column;
+        height: 120vh;
+        padding: 0;
+    }
+    .c-right{
+        margin-top: 5rem;
+    }
+    .c-right .user{
+        width: 19rem;
+    }
+}

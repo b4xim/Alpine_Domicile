@@ -1,6 +1,6 @@
 .card{
     width: 10rem;
-    height: 13rem;
+    height: 14rem;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -35,4 +35,9 @@
 .cardbutton:hover{
     background: var(--lblue);
     color: white;
+}
+@media  screen and (max-width: 480px) {
+    .card{
+        width: auto;
+    }
 }
